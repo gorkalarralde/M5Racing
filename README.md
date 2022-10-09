@@ -1,2 +1,4 @@
 # M5Racing
-M5stack Data Adquisition System and analysis
+M5stack DAS Racing
+ - Data Acquisition System and analysis
+ Solution for racecar and motorcycle racing.

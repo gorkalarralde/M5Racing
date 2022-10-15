@@ -10,21 +10,21 @@ M5Stack DAS Racing summary:
 
 Racing Data Logger Specs: 
 
-1 - 16GB microSD card storage 
-2 - 10 Hz GPS module
-3 - 50 Hz data logging 
-4 - OBD II Module (option) 
-5 - TTPMS module (option) 
-6 - IR TIRE Temperature (option) 
-7 - ENVIROMENTAL DATA (option) 
-8 - G-SENSORS (option) 
-9 - IR BRAKES Temperature (option) 
-lo - STEERING ANGLE (option) 
-11 - THROTTLE POSITION SENSOR (option) 
-12 - SUSPENSION TRAVEL (option) 
-13 - AUTO-SHIFTER (option) 
-14 - BRAKE SENSOR (option) 
-15 - HMI DASHBOARD (option) 
+ - 1 - 16GB microSD card storage 
+ - 2 - 10 Hz GPS module
+ - 3 - 50 Hz data logging 
+ - 4 - OBD II Module (option) 
+ - 5 - TTPMS module (option) 
+ - 6 - IR TIRE Temperature (option) 
+ - 7 - ENVIROMENTAL DATA (option) 
+ - 8 - G-SENSORS (option) 
+ - 9 - IR BRAKES Temperature (option) 
+ - l0 - STEERING ANGLE (option) 
+ - 11 - THROTTLE POSITION SENSOR (option) 
+ - 12 - SUSPENSION TRAVEL (option) 
+ - 13 - AUTO-SHIFTER (option) 
+ - 14 - BRAKE SENSOR (option) 
+ - 15 - HMI DASHBOARD (option) 
 
 
 Goals and plus functions for the above related specs:
@@ -56,7 +56,7 @@ lean angle Ir motorcycles. Includes undertone r steering indicator,
 
 
 9- Includes alerts for too low orto high values. 
-lo- 
+l0 - 
 
 11-Only if not OBD I option module chosen. 
 12-Includes SAG aid process adjustment step by step. 

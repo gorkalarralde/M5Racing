@@ -19,7 +19,7 @@ Racing Data Logger Specs:
  - 7 - ENVIROMENTAL DATA (option) 
  - 8 - G-SENSORS (option) 
  - 9 - IR BRAKES Temperature (option) 
- - l0 - STEERING ANGLE (option) 
+ - 10 - STEERING ANGLE (option) 
  - 11 - THROTTLE POSITION SENSOR (option) 
  - 12 - SUSPENSION TRAVEL (option) 
  - 13 - AUTO-SHIFTER (option) 
@@ -29,45 +29,45 @@ Racing Data Logger Specs:
 
 Goals and plus functions for the above related specs:
 
-1- Up to 16GB. Compatible . CSV format. 
-2- 1047 GPS data for: automatic on-track recognition, 
+ - 1- Up to 16GB. Compatible . CSV format. 
+ - 2- 1047 GPS data for: automatic on-track recognition, 
 
 (plus than 1000 tracks available), accurate track lines path on every curve, automatic lap timer, a curate time Á date, altitude and moving speed. 
-3- High-speed data logging (every 20ms) for high 
+ - 3- High-speed data logging (every 20ms) for high 
 
 variable data sensors (suspension, G- forces, tire and brake temperatures, etc.) 
-4- Includes SHIFT-light indicator, Engine RPM, ECU 
+ - 4- Includes SHIFT-light indicator, Engine RPM, ECU 
 
 speed, GEAR and on-screen alerts for too high Coolant temperature. 
 
-5- Inside tire temperature A pression. Includes on-screen 
+ - 5- Inside tire temperature A pression. Includes on-screen 
 
 alerts for too low or too high tire pressure. Includes easy "check-by-Colour" optimum values. 
-6- Includes "check-by-Colour "values and alerts for too low 
+ - 6- Includes "check-by-Colour "values and alerts for too low 
 
 temperature. At car setup, includes camber tips for optimum performance. 3- zone: left, centre A right temp. 
-7- Ambient temperature, pressure A humidity. Includes 
+ - 7- Ambient temperature, pressure A humidity. Includes 
 
 alerts for too low ambient temperature. 
-8- Acceleration, braking and turning forces. Includes 
+ - 8- Acceleration, braking and turning forces. Includes 
 
 lean angle Ir motorcycles. Includes undertone r steering indicator, 
 
 
 
-9- Includes alerts for too low orto high values. 
-l0 - 
+ - 9- Includes alerts for too low orto high values. 
+ - 10 - 
 
-11-Only if not OBD I option module chosen. 
-12-Includes SAG aid process adjustment step by step. 
+ - 11-Only if not OBD I option module chosen. 
+ - 12-Includes SAG aid process adjustment step by step. 
 
 with tips and advices. Also includes line SAG with "check-by-Colour "optimum values. Includes alerts for too much diving orto por SAG. 
-13-Only for models equipad with UPS DOWN shifter. 
+ - 13-Only for models equipad with UPS DOWN shifter. 
 
 Mandatory ODDI module option. Totally tunable with 4 riding modes: ECO, STREET, SPORT and TRACK. . 
 
-14- Brake sensor 2 options: on/off or pressure gauge. 
-15- Dashboard to: manage information, navigate 
+ - 14- Brake sensor 2 options: on/off or pressure gauge. 
+ - 15- Dashboard to: manage information, navigate 
 
 through menus, touchscreen, better design, varios screens. 2 sizes: 3,5" or 5" HD with LEDs indicators. 
 

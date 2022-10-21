@@ -27,7 +27,7 @@
  - 15 - HMI DASHBOARD (option) 
 
 
-Goals and plus functions for the above related specs:
+## Goals and plus functions for the above related specs:
 
  - 1 - Up to 16GB. Compatible .CSV format with RaceRender 3.0 Data Analisis and Data-Overlay video (FREEWARE). 
  - 2 - 10 times a second GPS data for: automatic on-track recognition (plus than 1000 tracks available), accurate track lines path on every curve, automatic lap timer, accurate time, date, altitude and moving speed. 

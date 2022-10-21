@@ -1,5 +1,5 @@
 # M5Racing
-M5Stack DAS Racing summary:
+## M5Stack DAS Racing summary:
 
  - Data Acquisition System and Analysis
  for racecar and motorcycle racing.
@@ -8,7 +8,7 @@ M5Stack DAS Racing summary:
  - Based on M5Stack Core: https://shop.m5stack.com/collections/m5-controllers/products/esp32-basic-core-iot-development-kit-v2-6
 
 
-Racing Data Logger Specs: 
+## Racing Data Logger Specs: 
 
  - 1 - microSD card storage 
  - 2 - 10 Hz GPS module

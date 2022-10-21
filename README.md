@@ -1,7 +1,7 @@
 # M5Racing
 ## M5Stack DAS Racing summary:
 
- - Data Acquisition System and Analysis
+ - Data Acquisition System (DAS) and Analysis
  for racecar and motorcycle racing.
  - Telemetry and data logging for all sensors installed and ECU vehicle data.
  - On-track engineering.

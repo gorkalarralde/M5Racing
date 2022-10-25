@@ -1,0 +1,3 @@
+module shells for M5Stack (http://www.thingiverse.com/thing:2834201) by n602 is licensed under the Creative Commons - Attribution - Share Alike license.
+http://creativecommons.org/licenses/by-sa/3.0/
+

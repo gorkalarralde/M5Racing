@@ -31,7 +31,7 @@
 
  - 1 - 16GB microSD CARD STORAGE
  
-       - Up to 16GB FAT32 formated microSD cards
+   - Up to 16GB FAT32 formated microSD cards
        - Creates compatible UTF-8 .CSV format files
        - Can be opened with:
          - RaceRender 3.0 Data Analisis and Data-Overlay video (FREEWARE)
@@ -40,19 +40,19 @@
  - 2 - 10 Hz GPS DATA
  
    - 10 times a second GPS data for:
-    - automatic lap timer
-    - automatic on-track recognition (plus than 1000 tracks available)
-    - accurate track lines path for every curve
-    - accurate time and date
-    - altitude data and moving speed
+   - automatic lap timer
+   - automatic on-track recognition (plus than 1000 tracks available)
+   - accurate track lines path for every curve
+   - accurate time and date
+   - altitude data and moving speed
          
  - 3 - 50 Hz DATA LOGGING
  
    - 50 times a second (every 20 ms) logging
-       - High-speed data sampling for high variable data sensors such as:
-         - Suspension
-         - G- forces
-         - IR temps (tires and brakes) 
+   - High-speed data sampling for high variable data sensors such as:
+     - Suspension
+     - G- forces
+     - IR temps (tires and brakes) 
  
  - 4 - OBD II ECU DATA
 

@@ -22,7 +22,7 @@
  - 10 - STEERING ANGLE 
  - 11 - THROTTLE POSITION SENSOR 
  - 12 - SUSPENSION TRAVEL AND SAG ADJUSTMENT
- - 13 - AUTO POWER SHIFTER
+ - 13 - AUTO POWER SHIFTER (APS)
  - 14 - BRAKE PRESSURE SENSOR 
  - 15 - 5" HMI REALTIME DASHBOARD 
 
@@ -141,16 +141,27 @@
      - Near bottoming alert: too much diving of the front under braking
      - Too poor SAG
  
- - 13 - AUTO POWER SHIFTER
+ - 13 - AUTO POWER SHIFTER (APS)
  
    - Only for models equipad with UP/DOWN shifter (UP-Shifter and Blipper)
    - Mandatory OBD II BT active
    - Totally tunable with 4 riding modes:
      - ECO, STREET, SPORT and TRACK
-     - Each mode totally configurable for UP, DOWN, RPM histeresys values
+     - Each mode totally configurable for UP RPM, DOWN RPM, for each gear!!!
  
- - 14 - Brake sensor with 2 options: on/off or a proper pressure gauge (needs installation of a new brake line hose). 
+ - 14 - BRAKE PRESSURE SENSOR
  
- - 15 - 5" HD touchscreen monitor with RPM LEDs indicators to: show all the LIVE data, proper gear change indicator, manage information, navigate through menus, better design, varios screens.
+   - Brake sensor with 2 options and functionality:
+     - ON/OFF: only senses if you brake or not via brake light activation
+     - Proper pressure gauge/s: samples exact pressure at each brake lever (needs installation and bleeding of new brake line hoses)
+ 
+ - 15 - 5" HMI REALTIME DASHBOARD
+
+   - 5" HD touchscreen monitor with:
+     - Better GUI design than the M5Stack core itself, with multiple graphical screens
+     - Professional RPM LED strip with SHIFT-light indicator (flashes white) totally syncronized with APS
+     - Show all the LIVE data of the vehicle
+     - Manage information
+     - Navigate through configuration menus
 
 

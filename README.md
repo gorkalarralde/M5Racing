@@ -66,10 +66,6 @@
    - On-screen alerts for too high Coolant temperature
          ![image](https://user-images.githubusercontent.com/98120840/198114479-aa37e27a-11b7-45a4-a0ba-c67d459494fb.png)
          - https://amzn.eu/d/34w3Kxu
-     - ![image](https://user-images.githubusercontent.com/98120840/198112127-d8394645-4ba5-4425-872d-156611eea8ba.png)
-     - ![image](https://user-images.githubusercontent.com/98120840/198112464-e149e8ab-3ef9-47f9-85bd-0e4c34cdbd3b.png)
-
-
  
  - 5 - TTPMS DATA
  

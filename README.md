@@ -35,7 +35,7 @@
    - Creates compatible UTF-8 .CSV format files
    - Can be opened with:
      - RaceRender 3.0 Data Analisis and Data-Overlay video (FREEWARE)
-     - MS Excel Data Sheets or similar.
+     - MS Excel Data Sheets or similar
        
  - 2 - 10 Hz GPS DATA
  
@@ -61,7 +61,7 @@
    - SHIFT-light indicator
    - ECU SPEED data
    - Actual GEAR
-   - On-screen alerts for too high Coolant temperature. 
+   - On-screen alerts for too high Coolant temperature
  
  - 5 - TTPMS DATA
  
@@ -81,11 +81,12 @@
  
  - 6 - IR TIRE TEMPERATURES
  
-   - 3-zone data sampling:
-     - outside, middle and inside temps for each car tire or 
-     - left, centre and right temps for each motorcycle (bike) tire
+   - 3-zone or an 8-zone expanded data sampling to choose from
    - Includes "check-by-colour" values and alerts for too low or too high temperature
-   - At setup, includes camber tips for optimum performance
+   - On-screen data analysis simplified:
+     - Outside, middle and inside temps for each car tire
+       - At setup, includes camber tips for optimum performance
+     - Left, centre and right temps for each motorcycle (bike) tire
  
  - 7 - Ambient temperature, pressure and humidity. Includes alerts for too low ambient temperature. 
  

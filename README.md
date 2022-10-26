@@ -8,29 +8,40 @@
  - Based on M5Stack Core: https://shop.m5stack.com/collections/m5-controllers/products/esp32-basic-core-iot-development-kit-v2-6
 
 
-## Racing Data Logger Specs: 
+## Racing Data Logger Full Technical Data Specs: 
 
  - 1 - microSD card storage 
  - 2 - 10 Hz GPS module
  - 3 - 50 Hz data logging 
- - 4 - OBD II Module (option) 
- - 5 - TTPMS module (option) 
- - 6 - IR TIRE Temperature (option) 
- - 7 - ENVIROMENTAL DATA (option) 
- - 8 - G-SENSORS (option) 
- - 9 - IR BRAKES Temperature (option) 
- - 10 - STEERING ANGLE (option) 
- - 11 - THROTTLE POSITION SENSOR (option) 
- - 12 - SUSPENSION TRAVEL (option) 
- - 13 - AUTO-SHIFTER (option) 
- - 14 - BRAKE SENSOR (option) 
- - 15 - HMI DASHBOARD (option) 
+ - 4 - OBD II Module 
+ - 5 - TTPMS module
+ - 6 - IR TIRE Temperature
+ - 7 - ENVIROMENTAL DATA
+ - 8 - G-SENSORS 
+ - 9 - IR BRAKES Temperature
+ - 10 - STEERING ANGLE 
+ - 11 - THROTTLE POSITION SENSOR 
+ - 12 - SUSPENSION TRAVEL 
+ - 13 - AUTO-SHIFTER
+ - 14 - BRAKE SENSOR 
+ - 15 - HMI DASHBOARD 
 
 
-## Goals and plus functions for the above related specs:
+## Full Functions List available for the above related tech specs:
 
- - 1 - Up to 16GB. Compatible .CSV format with RaceRender 3.0 Data Analisis and Data-Overlay video (FREEWARE). 
- - 2 - 10 times a second GPS data for: automatic on-track recognition (plus than 1000 tracks available), accurate track lines path on every curve, automatic lap timer, accurate time, date, altitude and moving speed. 
+ - 1 - microSD card storage
+       - Up to 16GB FAT32 formated microSD cards.
+       - Creates compatible .CSV format files
+       - Can be opened with RaceRender 3.0 Data Analisis and Data-Overlay video (FREEWARE) or with MS Excel Data Sheets.
+       
+ - 2 - 10 Hz GPS module
+       - 10 times a second GPS data for:
+         - automatic lap timer
+         - automatic on-track recognition (plus than 1000 tracks available)
+         - accurate track lines path for every curve
+         - accurate time and date
+         - altitude data and moving speed
+         
  - 3 - 50 times a second High-speed (every 20ms) data logging for high variable data sensors (suspension, G- forces, tire and brake temperatures, etc.) 
  - 4 - Includes SHIFT-light indicator, Engine RPM, ECU speed, GEAR and on-screen alerts for too high Coolant temperature. 
  - 5 - Inside tire temperature and pression. Includes on-screen alerts for too low or too high tire pressure. Includes easy "check-by-Colour" optimum values. 

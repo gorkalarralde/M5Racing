@@ -11,7 +11,7 @@
 ## Racing Data Logger Full Technical Data Specs: 
 
  - 1 - microSD card storage 
- - 2 - 10 Hz GPS module
+ - 2 - 10 Hz GPS data
  - 3 - 50 Hz data logging 
  - 4 - OBD II Module 
  - 5 - TTPMS module
@@ -30,11 +30,12 @@
 ## Full Functions List available for the above related tech specs:
 
  - 1 - microSD card storage
+ 
        - Up to 16GB FAT32 formated microSD cards.
        - Creates compatible .CSV format files
        - Can be opened with RaceRender 3.0 Data Analisis and Data-Overlay video (FREEWARE) or with MS Excel Data Sheets.
        
- - 2 - 10 Hz GPS module
+ - 2 - 10 Hz GPS data
        - 10 times a second GPS data for:
          - automatic lap timer
          - automatic on-track recognition (plus than 1000 tracks available)

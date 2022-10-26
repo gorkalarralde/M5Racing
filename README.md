@@ -39,7 +39,7 @@
        
  - 2 - 10 Hz GPS DATA
  
-  - 10 times a second GPS data for:
+   - 10 times a second GPS data for:
     - automatic lap timer
     - automatic on-track recognition (plus than 1000 tracks available)
     - accurate track lines path for every curve

@@ -57,10 +57,11 @@
  - 4 - OBD II ECU DATA
  
    - Classic Bluetooth 3.0 connection with ELM327 chipset (Version 1.5 or higher)
-   - Real Time Engine RPM
-   - SHIFT-light indicator
+   - ECU Engine RPM
+   - Open the optional SHIFT-light indicator
    - ECU SPEED data
    - Actual GEAR
+   - ECU Throttle position sensor data (TPS)
    - On-screen alerts for too high Coolant temperature
  
  - 5 - TTPMS DATA
@@ -114,11 +115,24 @@
      - Below 35ºC (cold)
      - Above 380ºC (overheated)
  
- - 10 - 
+ - 10 - STEERING ANGLE
  
- - 11 - Only if not OBD II option module chosen. 
+ - 11 - THROTTLE POSITION SENSOR
  
- - 12 - Includes SAG easy process adjustment step by step, with tips and advices. Also includes line SAG with "check-by-Colour "optimum values. Includes alerts for too much diving orto por SAG. 
+   - Only if not OBD II BT in use:
+     - Car: must install a ToF sensor under de throttle lever
+     - Motorcycle: must install an angle sensor inside de throttle
+ 
+ - 12 - SUSPENSION TRAVEL AND SAG ADJUSTMENT
+ 
+   - Measures the suspension travel for each wheel
+   - Includes SAG easy process adjustment:
+     - 3-step guide with description and images
+     - With "check-by-colour" optimum calculated values 
+     - Also includes lIVE SAG for on-track setup 
+   - Includes alerts for:
+     - Small oo much diving of the front under braking
+     - or too small SAG. 
  
  - 13 - Only for models equipad with UP/DOWN shifter. Mandatory OBD II module option. Totally tunable with 4 riding modes: ECO, STREET, SPORT and TRACK, and each mode totally configurable for UP, DOWN, RPM histeresys values.
  

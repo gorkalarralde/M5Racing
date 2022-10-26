@@ -63,6 +63,8 @@
    - Actual GEAR
    - ECU Throttle position sensor data (TPS)
    - On-screen alerts for too high Coolant temperature
+   - ![image](https://user-images.githubusercontent.com/98120840/198111660-62ef01d5-6091-40a7-852d-44d201e2712c.png)
+
  
  - 5 - TTPMS DATA
  

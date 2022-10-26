@@ -111,8 +111,8 @@
  - 9 - IR BRAKES TEMPERATURE
  
    - Includes alerts for too low or too high values
-     - Below 7ºC
-     - Above 380ºC
+     - Below 35ºC (cold)
+     - Above 380ºC (overheated)
  
  - 10 - 
  

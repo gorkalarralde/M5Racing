@@ -5,7 +5,9 @@
  for racecar and motorcycle racing.
  - Telemetry and data logging for all sensors installed and ECU vehicle data.
  - On-track engineering.
- - Based on M5Stack Core: https://shop.m5stack.com/collections/m5-controllers/products/esp32-basic-core-iot-development-kit-v2-6
+ - Based on M5Stack Core:
+   - Option 1: https://docs.m5stack.com/en/core/basic_v2.6 (cheapest option)
+   - Option 2: https://docs.m5stack.com/en/core/gray (another valid option)
 
 
 ## Racing Data Logger Full Technical Data Specs: 

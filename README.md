@@ -36,6 +36,7 @@
        - Can be opened with RaceRender 3.0 Data Analisis and Data-Overlay video (FREEWARE) or with MS Excel Data Sheets.
        
  - 2 - 10 Hz GPS data
+ 
        - 10 times a second GPS data for:
          - automatic lap timer
          - automatic on-track recognition (plus than 1000 tracks available)

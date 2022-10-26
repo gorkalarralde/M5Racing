@@ -131,10 +131,16 @@
      - With "check-by-colour" optimum calculated values 
      - Also includes lIVE SAG for on-track setup 
    - Includes alerts for:
-     - Small oo much diving of the front under braking
-     - or too small SAG. 
+     - Near bottoming alert: too much diving of the front under braking
+     - Too poor SAG
  
- - 13 - Only for models equipad with UP/DOWN shifter. Mandatory OBD II module option. Totally tunable with 4 riding modes: ECO, STREET, SPORT and TRACK, and each mode totally configurable for UP, DOWN, RPM histeresys values.
+ - 13 - AUTO POWER SHIFTER
+ 
+   - Only for models equipad with UP/DOWN shifter (UP-Shifter and Blipper)
+   - Mandatory OBD II BT active
+   - Totally tunable with 4 riding modes:
+     - ECO, STREET, SPORT and TRACK
+     - Each mode totally configurable for UP, DOWN, RPM histeresys values
  
  - 14 - Brake sensor with 2 options: on/off or a proper pressure gauge (needs installation of a new brake line hose). 
  

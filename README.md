@@ -71,9 +71,9 @@
        - Includes easy "check-by-Colour" optimum or out-of-range values
        - 2 options:
          - Internal (real TTPMS but needs installation):
+           - https://amzn.eu/d/5TqwCvm
+           - https://amzn.eu/d/ep8Rzsu
            - https://amzn.eu/d/hr0sHYG
-           - https://amzn.eu/d/dEpr1Cf
-           - https://amzn.eu/d/ciZvJnz
          - External (very easy install but temperature is ambient temp):
            - https://amzn.eu/d/6uYdyAY
            - https://amzn.eu/d/dzelCKM

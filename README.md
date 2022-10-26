@@ -94,7 +94,9 @@
    - Ambient temperature (ºC)
    - Ambient pressure (BAR)
    - Ambient humidity (%)
-   - Includes alerts for too low or too high ambient temp (below 7ºC or above 32ºC)
+   - Includes alerts for too low or too high ambient temp:
+     - Below 7ºC
+     - Above 32ºC
  
  - 8 - G-SENSORS
  
@@ -109,6 +111,8 @@
  - 9 - IR BRAKES TEMPERATURE
  
    - Includes alerts for too low or too high values
+     - Below 7ºC
+     - Above 380ºC
  
  - 10 - 
  

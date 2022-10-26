@@ -72,7 +72,7 @@
        - 2 options:
          - Internal (real TTPMS but needs installation):
            - https://amzn.eu/d/hr0sHYG
-           - 
+           - https://amzn.eu/d/dEpr1Cf
          - External (very easy install but temperature is ambient temp):
            - https://amzn.eu/d/6uYdyAY
            - https://amzn.eu/d/dzelCKM

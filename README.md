@@ -88,11 +88,27 @@
        - At setup, includes camber tips for optimum performance
      - Left, centre and right temps for each motorcycle (bike) tire
  
- - 7 - Ambient temperature, pressure and humidity. Includes alerts for too low ambient temperature. 
+ - 7 - ENVIROMENTAL DATA
  
- - 8 - Acceleration, braking and turning forces. Includes lean angle for motorcycles. Includes under/over steering indicator. 
+   - Ambient light (Lux)
+   - Ambient temperature (ºC)
+   - Ambient pressure (BAR)
+   - Ambient humidity (%)
+   - Includes alerts for too low or too high ambient temp (below 7ºC or above 32ºC)
  
- - 9 - Includes alerts for too low orto high values. 
+ - 8 - G-SENSORS
+ 
+   - Longitudinal acceleration:
+     - Under braking (negative G-values)
+     - Throttling (positive G-values)
+   - Includes pitch angle for live rake sampling 
+   - Lateral turning forces
+   - Includes lean angle (specially usefull for motorcycle (bike))
+   - Includes yaw angle to detect under/over steering of the vehicle
+ 
+ - 9 - IR BRAKES TEMPERATURE
+ 
+   - Includes alerts for too low or too high values
  
  - 10 - 
  

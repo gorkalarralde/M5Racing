@@ -30,7 +30,6 @@
 ## Full Functions List available for the above related tech specs:
 
  - 1 - 16GB microSD CARD STORAGE
- 
        - Up to 16GB FAT32 formated microSD cards
        - Creates compatible UTF-8 .CSV format files
        - Can be opened with:

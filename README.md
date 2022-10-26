@@ -143,7 +143,7 @@
  
  - 13 - AUTO POWER SHIFTER (APS)
  
-   - Only for models equipad with UP/DOWN shifter (UP-Shifter and Blipper)
+   - Only for models equiped with UP/DOWN shifter (UP-Shifter and Blipper)
    - Mandatory OBD II BT active
    - Totally tunable with 4 riding modes:
      - ECO, STREET, SPORT and TRACK

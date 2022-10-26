@@ -38,11 +38,11 @@
  - 2 - 10 Hz GPS data
  
        - 10 times a second GPS data for:
-         - automatic lap timer
-         - automatic on-track recognition (plus than 1000 tracks available)
-         - accurate track lines path for every curve
-         - accurate time and date
-         - altitude data and moving speed
+       - automatic lap timer
+       - automatic on-track recognition (plus than 1000 tracks available)
+       - accurate track lines path for every curve
+       - accurate time and date
+       - altitude data and moving speed
          
  - 3 - 50 times a second High-speed (every 20ms) data logging for high variable data sensors (suspension, G- forces, tire and brake temperatures, etc.) 
  - 4 - Includes SHIFT-light indicator, Engine RPM, ECU speed, GEAR and on-screen alerts for too high Coolant temperature. 

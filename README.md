@@ -79,7 +79,9 @@
            - https://amzn.eu/d/dzelCKM
 
  
- - 6 - Includes "check-by-Colour "values and alerts for too low temperature. At car setup, includes camber tips for optimum performance with 3 zone data logging: outside, middle and inside temps for each car tire or left, centre and right temps for each motorcycle (bike) tire.
+ - 6 - IR TIRE TEMPERATURES
+ 
+   - Includes "check-by-Colour "values and alerts for too low temperature. At car setup, includes camber tips for optimum performance with 3 zone data logging: outside, middle and inside temps for each car tire or left, centre and right temps for each motorcycle (bike) tire.
  
  - 7 - Ambient temperature, pressure and humidity. Includes alerts for too low ambient temperature. 
  

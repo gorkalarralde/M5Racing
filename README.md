@@ -10,21 +10,21 @@
 
 ## Racing Data Logger Full Technical Data Specs: 
 
- - 1 - microSD card storage 
- - 2 - 10 Hz GPS data
- - 3 - 50 Hz data logging 
- - 4 - OBD II Module 
- - 5 - TTPMS module
- - 6 - IR TIRE Temperature
+ - 1 - 16GB microSD CARD STORAGE 
+ - 2 - 10 Hz GPS DATA
+ - 3 - 50 Hz DATA LOGGING 
+ - 4 - OBD II DATA 
+ - 5 - TTPMS DATA
+ - 6 - IR TIRE TEMPERATURES
  - 7 - ENVIROMENTAL DATA
  - 8 - G-SENSORS 
- - 9 - IR BRAKES Temperature
+ - 9 - IR BRAKES TEMPERATURE
  - 10 - STEERING ANGLE 
  - 11 - THROTTLE POSITION SENSOR 
- - 12 - SUSPENSION TRAVEL 
- - 13 - AUTO-SHIFTER
- - 14 - BRAKE SENSOR 
- - 15 - HMI DASHBOARD 
+ - 12 - SUSPENSION TRAVEL AND SAG ADJUSTMENT
+ - 13 - AUTO POWER SHIFTER
+ - 14 - BRAKE PRESSURE SENSOR 
+ - 15 - 5" HMI REALTIME DASHBOARD 
 
 
 ## Full Functions List available for the above related tech specs:

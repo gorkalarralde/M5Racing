@@ -30,7 +30,6 @@
 ## Full Functions List available for the above related tech specs:
 
  - 1 - 16GB microSD CARD STORAGE
- 
    - Up to 16GB FAT32 formated microSD cards
    - Creates compatible UTF-8 .CSV format files
    - Can be opened with:
@@ -38,7 +37,6 @@
      - MS Excel Data Sheets or similar.
        
  - 2 - 10 Hz GPS DATA
- 
    - 10 times a second GPS data for:
    - automatic lap timer
    - automatic on-track recognition (plus than 1000 tracks available)
@@ -47,7 +45,6 @@
    - altitude data and moving speed
          
  - 3 - 50 Hz DATA LOGGING
- 
    - 50 times a second (every 20 ms) logging
    - High-speed data sampling for high variable data sensors such as:
      - Suspension
@@ -55,16 +52,14 @@
      - IR temps (tires and brakes) 
  
  - 4 - OBD II ECU DATA
-
-       - Classic Bluetooth 3.0 connection with ELM327 chipset (Version 1.5 or higher)
-       - Real Time Engine RPM
-       - SHIFT-light indicator
-       - ECU SPEED data
-       - Actual GEAR
-       - On-screen alerts for too high Coolant temperature. 
+   - Classic Bluetooth 3.0 connection with ELM327 chipset (Version 1.5 or higher)
+   - Real Time Engine RPM
+   - SHIFT-light indicator
+   - ECU SPEED data
+   - Actual GEAR
+   - On-screen alerts for too high Coolant temperature. 
  
  - 5 - TTPMS DATA
-
    - Inside tire temperature and pression monitoring system
    - BLE Bluetooth 4.0 connection with open data TTPMS sensors
    - Includes on-screen alerts for too low or too high tire pressure
@@ -80,7 +75,6 @@
 
  
  - 6 - IR TIRE TEMPERATURES
- 
    - Includes "check-by-Colour "values and alerts for too low temperature. At car setup, includes camber tips for optimum performance with 3 zone data logging: outside, middle and inside temps for each car tire or left, centre and right temps for each motorcycle (bike) tire.
  
  - 7 - Ambient temperature, pressure and humidity. Includes alerts for too low ambient temperature. 

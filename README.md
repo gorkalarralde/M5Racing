@@ -65,18 +65,18 @@
  
  - 5 - TTPMS DATA
 
-       - Inside tire temperature and pression monitoring system
-       - BLE Bluetooth 4.0 connection with open data TTPMS sensors
-       - Includes on-screen alerts for too low or too high tire pressure
-       - Includes easy "check-by-Colour" optimum or out-of-range values
-       - 2 options:
-         - Internal (real TTPMS but needs installation):
-           - https://amzn.eu/d/5TqwCvm
-           - https://amzn.eu/d/ep8Rzsu
-           - https://amzn.eu/d/hr0sHYG
-         - External (very easy install but temperature is ambient temp):
-           - https://amzn.eu/d/6uYdyAY
-           - https://amzn.eu/d/dzelCKM
+   - Inside tire temperature and pression monitoring system
+   - BLE Bluetooth 4.0 connection with open data TTPMS sensors
+   - Includes on-screen alerts for too low or too high tire pressure
+   - Includes easy "check-by-Colour" optimum or out-of-range values
+   - 2 options:
+     - Internal (real TTPMS but needs installation):
+       - https://amzn.eu/d/5TqwCvm
+       - https://amzn.eu/d/ep8Rzsu
+       - https://amzn.eu/d/hr0sHYG
+     - External (very easy install but temperature is ambient temp):
+       - https://amzn.eu/d/6uYdyAY
+       - https://amzn.eu/d/dzelCKM
 
  
  - 6 - IR TIRE TEMPERATURES

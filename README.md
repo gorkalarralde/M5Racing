@@ -157,11 +157,16 @@
  
  - 15 - 5" HMI REALTIME DASHBOARD
 
-   - 5" HD touchscreen monitor with:
+   - 5" Full-HD touchscreen monitor with:
      - Better GUI design than the M5Stack core itself, with multiple graphical screens
      - Professional RPM LED strip with SHIFT-light indicator (flashes white) totally syncronized with APS
      - Show all the LIVE data of the vehicle
      - Manage information
      - Navigate through configuration menus
+     - Shows alarms and alerts:
+       - GPS signal alert
+       - TTPMS alarm
+       - Coolant alarm
+       - Ambient temperature alert
 
 

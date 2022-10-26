@@ -34,7 +34,6 @@
        - Up to 16GB FAT32 formated microSD cards
        - Creates compatible UTF-8 .CSV format files
        - Can be opened with:
- 
          - RaceRender 3.0 Data Analisis and Data-Overlay video (FREEWARE)
          - MS Excel Data Sheets or similar.
        

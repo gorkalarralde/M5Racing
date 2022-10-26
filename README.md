@@ -48,19 +48,27 @@
          
  - 3 - 50 Hz DATA LOGGING
  
-       - 50 times a second (every 20 ms) sampling
-       - High-speed data logging for high variable data sensors as Suspension, G- forces, IR tires and brakes temperatures, etc. 
+       - 50 times a second (every 20 ms) logging
+       - High-speed data sampling for high variable data sensors such as:
+         - Suspension
+         - G- forces
+         - IR temps (tires and brakes) 
  
  - 4 - OBD II ECU DATA
 
-       - Classic Bluetooth 3.0 connection with ELM327 chipset (v 1.5 or higher)
+       - Classic Bluetooth 3.0 connection with ELM327 chipset (Version 1.5 or higher)
        - Real Time Engine RPM
        - SHIFT-light indicator
        - ECU SPEED data
        - Actual GEAR
        - On-screen alerts for too high Coolant temperature. 
  
- - 5 - Inside tire temperature and pression. Includes on-screen alerts for too low or too high tire pressure. Includes easy "check-by-Colour" optimum values. 
+ - 5 - TTPMS DATA
+
+       - Inside tire temperature and pression monitoring system
+       - BLE Bluetooth 4.0 connection with open data TTPMS sensors
+       - Includes on-screen alerts for too low or too high tire pressure
+       - Includes easy "check-by-Colour" optimum values
  
  - 6 - Includes "check-by-Colour "values and alerts for too low temperature. At car setup, includes camber tips for optimum performance with 3 zone data logging: outside, middle and inside temps for each car tire or left, centre and right temps for each motorcycle (bike) tire.
  

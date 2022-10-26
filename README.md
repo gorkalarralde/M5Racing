@@ -68,7 +68,15 @@
        - Inside tire temperature and pression monitoring system
        - BLE Bluetooth 4.0 connection with open data TTPMS sensors
        - Includes on-screen alerts for too low or too high tire pressure
-       - Includes easy "check-by-Colour" optimum values
+       - Includes easy "check-by-Colour" optimum or out-of-range values
+       - 2 options:
+         - Internal (real TTPMS but needs installation):
+           - https://amzn.eu/d/6uYdyAY
+           - https://amzn.eu/d/dzelCKM
+         - External (very easy install but temperature is ambient temp):
+           - https://amzn.eu/d/6uYdyAY
+           - https://amzn.eu/d/dzelCKM
+
  
  - 6 - Includes "check-by-Colour "values and alerts for too low temperature. At car setup, includes camber tips for optimum performance with 3 zone data logging: outside, middle and inside temps for each car tire or left, centre and right temps for each motorcycle (bike) tire.
  

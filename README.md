@@ -39,16 +39,16 @@
        
  - 2 - 10 Hz GPS DATA
  
-       - 10 times a second GPS data for:
-       - automatic lap timer
-       - automatic on-track recognition (plus than 1000 tracks available)
-       - accurate track lines path for every curve
-       - accurate time and date
-       - altitude data and moving speed
+  - 10 times a second GPS data for:
+    - automatic lap timer
+    - automatic on-track recognition (plus than 1000 tracks available)
+    - accurate track lines path for every curve
+    - accurate time and date
+    - altitude data and moving speed
          
  - 3 - 50 Hz DATA LOGGING
  
-       - 50 times a second (every 20 ms) logging
+   - 50 times a second (every 20 ms) logging
        - High-speed data sampling for high variable data sensors such as:
          - Suspension
          - G- forces

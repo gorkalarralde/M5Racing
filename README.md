@@ -1,11 +1,17 @@
 # M5Racing
 ## M5Stack DAS Racing description:
 
-M5Racing (M5R) is a M5Stack modular based system for moving vehicles data sampling, revision (very schematic GUI over a 2" 320x240 integrated screen) and logging (when needed). It is mean advantage is the powerfull modular system that provides de M5Stack design, so you can get only the modules and sensors you need to achieved you needs. For example, if you only need TTPMS and some OBDII ECU data, there is no need to mount any module as the bluetooth conectivity is ready to use on the base M5Stack Core.
+M5Racing (M5R) is a Racing Data Logger based on the M5Stack modular system. Used for moving vehicles data sampling, revision (very schematic GUI over a 2" 320x240 integrated screen) and logging (when needed). M5Stack development board is highly efficient, covering with industrial grade case an ESP32, 16MB of flash memory and Bluetooth communication.
+
+The mean advantage is the powerfull modular system that provides de M5Stack design, so you can get only the modules and sensors you need to achieved you goals. For example, if you only need TTPMS and some OBDII ECU data, there is no need to mount any module as the bluetooth conectivity is ready to use on the base M5Stack Core.
 
  - Data Acquisition System (DAS) and Analysis for racecar and motorcycle racing
  - Telemetry and data logging for all sensors installed and ECU vehicle data
- - 2-inch 320x240 GUI for navigating through data and config menus
+ - 2.0-inch, 320x240 Colorful TFT LCD, with a maximun brightness of 853 nit
+ - GUI for navigating through data and config menus
+ - ESP32 (2 low-power Xtensa® 32-bit LX6 microprocessors at 240MHz, dual core, 600 DMIPS)
+ - Bluetooth 2.4 GHz 3D Antenna
+ - FreeRTOS firmware and 16MB of flash memory  
  - On-track engineering with LIVE sensors reading
  - Easy FIRMWARE upgrade via new "firmware.bin" realeases
  - Based on M5Stack Core:
@@ -14,26 +20,7 @@ M5Racing (M5R) is a M5Stack modular based system for moving vehicles data sampli
 
 At the end, we will show the list of which modules, sensors units and special installation are needed for the multiple functionalities of M5R.
 
-## Racing Data Logger Full Technical Data Specs: 
-
- - 1 - 16GB microSD CARD STORAGE 
- - 2 - 10 Hz GPS DATA
- - 3 - 50 Hz DATA LOGGING 
- - 4 - OBD II ECU DATA 
- - 5 - TTPMS DATA
- - 6 - IR TIRE TEMPERATURES
- - 7 - ENVIROMENTAL DATA
- - 8 - G-SENSORS 
- - 9 - IR BRAKES TEMPERATURE
- - 10 - STEERING ANGLE 
- - 11 - THROTTLE POSITION SENSOR 
- - 12 - SUSPENSION TRAVEL AND SAG ADJUSTMENT
- - 13 - AUTO POWER SHIFTER (APS)
- - 14 - BRAKE PRESSURE SENSOR 
- - 15 - 5" HMI REALTIME DASHBOARD 
-
-
-## Full Functions List available for the above related tech specs:
+## M5R Full Technical Data Specs: 
 
  - 1 - 16GB microSD CARD STORAGE
  

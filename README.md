@@ -12,7 +12,7 @@ M5Racing (M5R) is a M5Stack modular based system for moving vehicles data sampli
    - Option 1: https://docs.m5stack.com/en/core/basic_v2.6 (cheapest option)
    - Option 2: https://docs.m5stack.com/en/core/gray (another valid option)
 
-Later, we will see which modules are needed for the multiple functionalities of M5R
+At the end, we will show the list of which modules, sensors units and special installation are needed for the multiple functionalities of M5R.
 
 ## Racing Data Logger Full Technical Data Specs: 
 
@@ -171,3 +171,20 @@ Later, we will see which modules are needed for the multiple functionalities of 
        - Ambient temperature alert
 
 
+## Needed Modules, sensors and special installation (related with functionality)
+
+ - 1 - 16GB microSD CARD STORAGE -> No special module needed (M5Stack Core included functionality)
+ - 2 - 10 Hz GPS DATA
+ - 3 - 50 Hz DATA LOGGING -> No special module needed (M5Stack Core included functionality)
+ - 4 - OBD II ECU DATA -> No special module needed (M5Stack Core included functionality) 
+ - 5 - TTPMS DATA -> No special module needed (M5Stack Core included functionality)
+ - 6 - IR TIRE TEMPERATURES
+ - 7 - ENVIROMENTAL DATA -> No special module needed (M5Stack Core included functionality)
+ - 8 - G-SENSORS 
+ - 9 - IR BRAKES TEMPERATURE
+ - 10 - STEERING ANGLE -> No special module needed (M5Stack Core included functionality)
+ - 11 - THROTTLE POSITION SENSOR -> No special module needed (M5Stack Core included functionality) 
+ - 12 - SUSPENSION TRAVEL AND SAG ADJUSTMENT
+ - 13 - AUTO POWER SHIFTER (APS)
+ - 14 - BRAKE PRESSURE SENSOR -> No special module needed (M5Stack Core included functionality)
+ - 15 - 5" HMI REALTIME DASHBOARD 

@@ -1,14 +1,18 @@
 # M5Racing
-## M5Stack DAS Racing summary:
+## M5Stack DAS Racing description:
 
- - Data Acquisition System (DAS) and Analysis
- for racecar and motorcycle racing.
- - Telemetry and data logging for all sensors installed and ECU vehicle data.
- - On-track engineering.
+M5Racing (M5R) is a M5Stack modular based system for moving vehicles data sampling, revision (very schematic GUI over a 2" 320x240 integrated screen) and logging (when needed). It is mean advantage is the powerfull modular system that provides de M5Stack design, so you can get only the modules and sensors you need to achieved you needs. For example, if you only need TTPMS and some OBDII ECU data, there is no need to mount any module as the bluetooth conectivity is ready to use on the base M5Stack Core.
+
+ - Data Acquisition System (DAS) and Analysis for racecar and motorcycle racing
+ - Telemetry and data logging for all sensors installed and ECU vehicle data
+ - 2-inch 320x240 GUI for navigating through data and config menus
+ - On-track engineering with LIVE sensors reading
+ - Easy FIRMWARE upgrade via new "firmware.bin" realeases
  - Based on M5Stack Core:
    - Option 1: https://docs.m5stack.com/en/core/basic_v2.6 (cheapest option)
    - Option 2: https://docs.m5stack.com/en/core/gray (another valid option)
 
+Later, we will see which modules are needed for the multiple functionalities of M5R
 
 ## Racing Data Logger Full Technical Data Specs: 
 

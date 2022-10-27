@@ -62,16 +62,15 @@ Later, we will see which modules are needed for the multiple functionalities of 
  
  - 4 - OBD II ECU DATA
  
-   - Classic Bluetooth 3.0 connection with ELM327 chipset (Version 1.5 or higher)
-   - Also BT 2.0 and BT 4.0: it depends of the vehicle
+   - Classic Bluetooth 3.0 connection.
+   - Needs an OBDII to BT 3.0 dongle with compatible ELM327 chipset (Version 1.5 or higher) and 2.1 software
+   - Also BT 2.0 and BT 4.0: compatibility depends of the vehicle and OBDII to BT dongle used
    - ECU Engine RPM
    - Open the optional SHIFT-light indicator
    - ECU SPEED data
    - Actual GEAR
    - ECU Throttle position sensor data (TPS)
    - On-screen alerts for too high Coolant temperature
-         ![image](https://user-images.githubusercontent.com/98120840/198114479-aa37e27a-11b7-45a4-a0ba-c67d459494fb.png)
-         - https://amzn.eu/d/34w3Kxu
  
  - 5 - TTPMS DATA
  

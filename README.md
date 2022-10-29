@@ -104,28 +104,29 @@ At the end, we show the list of which modules, sensors units and special install
  
  - 8 - G-SENSORS and 9-axis IMU
  
+   - LEAN angle (specially usefull for motorcyclists and bikers)
+   - YAW or rotation angle to detect under/over steering of the vehicle
+   - Includes PITCH angle for live rake sampling
    - Longitudinal acceleration:
      - Under braking (negative G-values)
      - Throttling (positive G-values)
-   - Includes PITCH angle for live rake sampling 
-   - Lateral turning forces
-   - LEAN angle (specially usefull for motorcycle (bike))
-   - YAW or rotation angle to detect under/over steering of the vehicle
- 
+   - Lateral acceleration:
+     -  Cornering forces
+   
  - 9 - ROTOR and CALIPER TEMPERATURE
  
    - Based on external infrared (IR) sensors
    - Includes alerts for too low or too high rotor values
      - Below 100ºC (cold)
-     - Above 600ºC (overheated)
+     - Above 500ºC (overheated)
    - Includes alerts for too high caliper values
-     - Above 200ºC (overheated / risk of vaporisation)
+     - Above 180ºC (overheated / risk of vaporisation)
  
  - 10 - STEERING ANGLE
  
  - 11 - THROTTLE POSITION SENSOR
  
-   - Only if not OBD II BT in use:
+   - Only needed if not OBD II BT in use:
      - Car: must install a ToF sensor under de throttle lever
      - Motorcycle: must install an angle sensor inside de throttle
  
@@ -147,6 +148,9 @@ At the end, we show the list of which modules, sensors units and special install
    - Totally tunable with 4 riding modes:
      - ECO, STREET, SPORT and TRACK
      - Each mode totally configurable for UP RPM, DOWN RPM, for each gear!!!
+   - Available a:
+     - https://amzn.eu/d/10rhYnT
+     - https://amzn.eu/d/iwBvQux 
  
  - 14 - BRAKE PRESSURE SENSORS
  

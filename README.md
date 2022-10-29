@@ -116,7 +116,7 @@ At the end, we show the list of which modules, sensors units and special install
  
    - Based on external infrared (IR) sensors
    - Includes alerts for too low or too high values
-     - Below 35ºC (cold)
+     - Below 100ºC (cold)
      - Above 380ºC (overheated)
  
  - 10 - STEERING ANGLE

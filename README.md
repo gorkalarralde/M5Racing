@@ -40,18 +40,18 @@ At the end, we show the list of which modules, sensors units and special install
  - 2 - 10 Hz GPS DATA
  
    - 10 times a second GPS data for:
-   - automatic lap timer
-   - automatic on-track recognition (plus than 1000 tracks available)
-   - accurate track lines path for every curve
-   - accurate time and date
-   - altitude data and moving speed
+     - automatic lap timer
+     - automatic on-track recognition (plus than 1000 tracks available)
+     - accurate track lines path for every curve
+     - accurate time and date
+     - altitude data and moving speed
          
  - 3 - 50 Hz DATA LOGGING
  
    - 50 times a second (every 20 ms) logging
    - High-speed data sampling for high variable data sensors such as:
      - Suspension
-     - G- forces
+     - G-forces
      - IR temps (tires and brakes) 
  
  - 4 - OBD II ECU DATA
@@ -60,7 +60,7 @@ At the end, we show the list of which modules, sensors units and special install
    - Needs an OBDII to BT 3.0 dongle with compatible ELM327 chipset (Version 1.5 or higher) and 2.1 software
    - Also BT 2.0 and BT 4.0: compatibility depends of the vehicle and OBDII to BT dongle used
    - ECU Engine RPM
-   - Open the optional SHIFT-light indicator
+   - SHIFT-light indicator
    - ECU SPEED data
    - Actual GEAR
    - ECU Throttle position sensor data (TPS)
@@ -82,9 +82,10 @@ At the end, we show the list of which modules, sensors units and special install
        - https://amzn.eu/d/dzelCKM
 
  
- - 6 - IR TIRE TEMPERATURES
+ - 6 - TIRE TEMPERATURES
  
-   - 3-zone or an 8-zone expanded data sampling to choose from
+   - 3-zone or 8-zone expanded data sampling to choose from
+   - Based on external infrared (IR) sensors
    - Includes "check-by-colour" values and alerts for too low or too high temperature
    - On-screen data analysis simplified:
      - Outside, middle and inside temps for each car tire
@@ -101,18 +102,19 @@ At the end, we show the list of which modules, sensors units and special install
      - Below 7ºC
      - Above 32ºC
  
- - 8 - G-SENSORS
+ - 8 - G-SENSORS and 9-axis IMU
  
    - Longitudinal acceleration:
      - Under braking (negative G-values)
      - Throttling (positive G-values)
-   - Includes pitch angle for live rake sampling 
+   - Includes PITCH angle for live rake sampling 
    - Lateral turning forces
-   - Includes lean angle (specially usefull for motorcycle (bike))
-   - Includes yaw angle to detect under/over steering of the vehicle
+   - LEAN angle (specially usefull for motorcycle (bike))
+   - YAW or rotation angle to detect under/over steering of the vehicle
  
- - 9 - IR BRAKES TEMPERATURE
+ - 9 - ROTOR BRAKES TEMPERATURE
  
+   - Based on external infrared (IR) sensors
    - Includes alerts for too low or too high values
      - Below 35ºC (cold)
      - Above 380ºC (overheated)
@@ -144,7 +146,7 @@ At the end, we show the list of which modules, sensors units and special install
      - ECO, STREET, SPORT and TRACK
      - Each mode totally configurable for UP RPM, DOWN RPM, for each gear!!!
  
- - 14 - BRAKE PRESSURE SENSOR
+ - 14 - BRAKE PRESSURE SENSORS
  
    - Brake sensor with 2 options and functionality:
      - ON/OFF: only senses if you brake or not via brake light activation
@@ -174,7 +176,7 @@ At the end, we show the list of which modules, sensors units and special install
  - 5 - TTPMS DATA -> No special module needed (M5Stack Core included functionality)
  - 6 - IR TIRE TEMPERATURES
  - 7 - ENVIROMENTAL DATA -> No special module needed (M5Stack Core included functionality)
- - 8 - G-SENSORS 
+ - 8 - G-SENSORS and 9-axis IMU
  - 9 - IR BRAKES TEMPERATURE
  - 10 - STEERING ANGLE -> No special module needed (M5Stack Core included functionality)
  - 11 - THROTTLE POSITION SENSOR -> No special module needed (M5Stack Core included functionality) 

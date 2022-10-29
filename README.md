@@ -162,11 +162,13 @@ At the end, we show the list of which modules, sensors units and special install
 
    - 5-inch 800x480 touchscreen monitor with:
      - Racing Dashboard design
-     - LED strip with RPM SHIFT-light indicator (flashes white) totally syncronized with APS
+     - 20 LED strip shows actual RPM with colour ramping
+     - SHIFT-light indicator (all LEDs flash in powerfull white) totally syncronized with APS
      - Shows all the LIVE data and sensors of the vehicle
      - Better GUI design than the M5Stack Core itself, with multiple graphical screens
      - Manage information
      - Navigate through configuration menus
+     - Adaptative brightness to actual ambient light (lux)
      - Shows alarms and alerts:
        - GPS signal alert
        - TTPMS alarm

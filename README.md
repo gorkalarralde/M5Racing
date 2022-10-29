@@ -26,7 +26,7 @@ At the end, we show the list of which modules, sensors units and special install
 
  - 1 - 16GB microSD CARD STORAGE
  
-   - Up to 16GB FAT32 formated microSD cards
+   - Up to 16GB FAT32 formated microSD TF cards
    - Creates compatible UTF-8 .CSV format files
    - Can be opened with:
      - RaceRender 3.0 Data Analisis and Data-Overlay video (FREEWARE)
@@ -56,7 +56,7 @@ At the end, we show the list of which modules, sensors units and special install
  
  - 4 - OBD II ECU DATA
  
-   - Classic Bluetooth 3.0 connection.
+   - Classic Bluetooth 3.0 connection
    - Needs an OBDII to BT 3.0 dongle with compatible ELM327 chipset (Version 1.5 or higher) and 2.1 software
    - Also BT 2.0 and BT 4.0: compatibility depends of the vehicle and OBDII to BT dongle used
    - ECU Engine RPM
@@ -181,4 +181,4 @@ At the end, we show the list of which modules, sensors units and special install
  - 12 - SUSPENSION TRAVEL AND SAG ADJUSTMENT
  - 13 - AUTO POWER SHIFTER (APS)
  - 14 - BRAKE PRESSURE SENSOR -> No special module needed (M5Stack Core included functionality)
- - 15 - 5" HMI REALTIME DASHBOARD 
+ - 15 - 5" HMI REALTIME DASHBOARD

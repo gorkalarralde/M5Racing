@@ -85,7 +85,7 @@ At the end, we show the list of which modules, sensors units and special install
  - 6 - TIRE TEMPERATURES
  
    - 3-zone or 8-zone expanded data sampling to choose from
-   - Based on external infrared (IR) sensors
+   - Based on external infrared (IR) sensors (from -40 to 380ºC)
    - Includes "check-by-colour" values and alerts for too low or too high temperature
    - On-screen data analysis simplified:
      - Outside, middle and inside temps for each car tire
@@ -112,12 +112,14 @@ At the end, we show the list of which modules, sensors units and special install
    - LEAN angle (specially usefull for motorcycle (bike))
    - YAW or rotation angle to detect under/over steering of the vehicle
  
- - 9 - ROTOR BRAKES TEMPERATURE
+ - 9 - ROTOR and CALIPER TEMPERATURE
  
    - Based on external infrared (IR) sensors
-   - Includes alerts for too low or too high values
+   - Includes alerts for too low or too high rotor values
      - Below 100ºC (cold)
-     - Above 380ºC (overheated)
+     - Above 600ºC (overheated)
+   - Includes alerts for too high caliper values
+     - Above 200ºC (overheated / risk of vaporisation)
  
  - 10 - STEERING ANGLE
  

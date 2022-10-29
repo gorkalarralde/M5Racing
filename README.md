@@ -160,10 +160,11 @@ At the end, we show the list of which modules, sensors units and special install
  
  - 15 - 5" HMI REALTIME DASHBOARD
 
-   - 5-inch Full-HD touchscreen monitor with:
-     - Better GUI design than the M5Stack core itself, with multiple graphical screens
-     - Professional RPM LED strip with SHIFT-light indicator (flashes white) totally syncronized with APS
-     - Show all the LIVE data of the vehicle
+   - 5-inch 800x480 touchscreen monitor with:
+     - Racing Dashboard design
+     - LED strip with RPM SHIFT-light indicator (flashes white) totally syncronized with APS
+     - Shows all the LIVE data and sensors of the vehicle
+     - Better GUI design than the M5Stack Core itself, with multiple graphical screens
      - Manage information
      - Navigate through configuration menus
      - Shows alarms and alerts:

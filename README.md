@@ -148,7 +148,8 @@ At the end, we show the list of which modules, sensors units and special install
    - Totally tunable with 4 riding modes:
      - ECO, STREET, SPORT and TRACK
      - Each mode totally configurable for UP RPM, DOWN RPM, for each gear!!!
-   - Available a:
+     - FULL AUTO but also a FULL MANUAL UP/DOWN gear selector under any mode
+   - For a more convenient MODE selection and AUTO/MANUAL APS UP/DOWN gear sel, one of this 5-button controls is needed:
      - https://amzn.eu/d/10rhYnT
      - https://amzn.eu/d/iwBvQux 
  

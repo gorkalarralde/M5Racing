@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2022-10-25T23:20:17Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "M5R_I2C_MUX"
+        },
+        "Owner": "Tom Cab <cabezatomas@gmail.com>",
+        "Size": {
+            "X": 50,
+            "Y": 50
+        }
+    }
+}

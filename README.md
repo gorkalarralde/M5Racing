@@ -77,9 +77,11 @@ At the end, we show the list of which modules, sensors units and special install
        - https://amzn.eu/d/5TqwCvm
        - https://amzn.eu/d/ep8Rzsu
        - https://amzn.eu/d/hr0sHYG
+       - https://amzn.eu/d/ecVz5fE
      - External (very easy install but temperature is ambient temp):
        - https://amzn.eu/d/6uYdyAY
        - https://amzn.eu/d/dzelCKM
+       - https://amzn.eu/d/eoFtA7H
 
  
  - 6 - TIRE TEMPERATURES

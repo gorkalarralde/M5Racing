@@ -20,13 +20,13 @@ The mean advantage is the powerfull modular system that provides de M5Stack desi
    - Option 1: https://docs.m5stack.com/en/core/basic_v2.6 (cheapest option)
    - Option 2: https://docs.m5stack.com/en/core/gray (another valid option)
  - Created log files can be opened with:
-   - RaceRender 3.0 by HP Tuners, Data Analisis and Data-Overlay video (WIN and MAC / freeware)
-   - https://serious-racing.com (cloud only)
-   - RaceChrono Pro (Android / iOs, 23 euros license)
+   - RaceRender 3.0 by HP Tuners, creates Data-Overlay video (WIN and MAC / freeware)
+   - https://serious-racing.com (cloud only / free)
+   - RaceChrono Pro, Data Analysis with sync video (Android / iOs, 23 euros license)
    - TimeAttack
-   - Circuit Tools by VBOX (WIN and MAC / freeware)
-   - DashWare by GoPro creates Data-Overlay video (WIN / freeware)
-   - MS Excel Data Sheets or similar
+   - Circuit Tools by VBOX, Data Analysis with sync video (WIN and MAC / freeware)
+   - DashWare by GoPro, creates Data-Overlay video (WIN / freeware)
+   - MS Excel or similar, Data SpreadSeets or txt
     
 At the end, we show the list of which modules, sensors units and special installation process, needed for the multiple functionalities of M5R.
 

@@ -19,7 +19,15 @@ The mean advantage is the powerfull modular system that provides de M5Stack desi
  - Based on M5Stack Core:
    - Option 1: https://docs.m5stack.com/en/core/basic_v2.6 (cheapest option)
    - Option 2: https://docs.m5stack.com/en/core/gray (another valid option)
-
+ - Created log files can be opened with:
+   - RaceRender 3.0 Data Analisis and Data-Overlay video (WIN and MAC / freeware)
+   - https://serious-racing.com (cloud only)
+   - RaceChrono
+   - TimeAttack
+   - Circuit Tools by VBOX (WIN and MAC / freeware)
+   - DashWare by GoPro (WIN / freeware)
+   - MS Excel Data Sheets or similar
+    
 At the end, we show the list of which modules, sensors units and special installation process, needed for the multiple functionalities of M5R.
 
 ## M5R Full Technical Data Specs: 
@@ -28,15 +36,8 @@ At the end, we show the list of which modules, sensors units and special install
  
    - Up to 16GB FAT32 formated microSD TF cards
    - Creates compatible UTF-8 .CSV format files
-   - Can be opened with:
-     - RaceRender 3.0 Data Analisis and Data-Overlay video (WIN and MAC / freeware)
-     - https://serious-racing.com (cloud only)
-     - RaceChrono
-     - TimeAttack
-     - Circuit Tools by VBOX (WIN and MAC / freeware)
-     - DashWare by GoPro (WIN / freeware)
-     - MS Excel Data Sheets or similar
-       
+   - Compatibility with almost any data analysis program
+      
  - 2 - 10 Hz GPS DATA
  
    - 10 times a second GPS data for:

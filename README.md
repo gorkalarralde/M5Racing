@@ -23,7 +23,6 @@ The mean advantage is the powerfull modular system that provides de M5Stack desi
    - RaceRender 3.0 by HP Tuners, creates Data-Overlay video (WIN and MAC / freeware)
    - https://serious-racing.com (cloud only / free)
    - RaceChrono Pro, Data Analysis with sync video (Android / iOs, 23 euros license)
-   - TimeAttack
    - Circuit Tools by VBOX, Data Analysis with sync video (WIN and MAC / freeware)
    - DashWare by GoPro, creates Data-Overlay video (WIN / freeware)
    - MS Excel or similar, Data SpreadSeets or txt

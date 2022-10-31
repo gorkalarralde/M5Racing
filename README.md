@@ -22,7 +22,7 @@ The mean advantage is the powerfull modular system that provides de M5Stack desi
  - Created log files can be opened with:
    - RaceRender 3.0 by HP Tuners, Data Analisis and Data-Overlay video (WIN and MAC / freeware)
    - https://serious-racing.com (cloud only)
-   - RaceChrono
+   - RaceChrono Pro (Android / iOs, 23 euros license)
    - TimeAttack
    - Circuit Tools by VBOX (WIN and MAC / freeware)
    - DashWare by GoPro creates Data-Overlay video (WIN / freeware)

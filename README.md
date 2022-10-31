@@ -29,12 +29,12 @@ At the end, we show the list of which modules, sensors units and special install
    - Up to 16GB FAT32 formated microSD TF cards
    - Creates compatible UTF-8 .CSV format files
    - Can be opened with:
-     - RaceRender 3.0 Data Analisis and Data-Overlay video (FREEWARE)
-     - https://serious-racing.com
+     - RaceRender 3.0 Data Analisis and Data-Overlay video (WIN and MAC / freeware)
+     - https://serious-racing.com (cloud only)
      - RaceChrono
      - TimeAttack
-     - TrackAddict
-     - DashWare
+     - Circuit Tools by VBOX (WIN and MAC / freeware)
+     - DashWare by GoPro (WIN / freeware)
      - MS Excel Data Sheets or similar
        
  - 2 - 10 Hz GPS DATA

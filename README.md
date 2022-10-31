@@ -36,7 +36,7 @@ At the end, we show the list of which modules, sensors units and special install
    - Up to 16GB FAT32 formated microSD TF cards
    - Creates compatible UTF-8 .CSV format files
    - Compatibility with almost any data analysis program
-   - Unlimited session length, good for 24 hour races
+   - Unlimited session length, ideal for 24 hour races
       
  - 2 - 10 Hz GPS DATA
  

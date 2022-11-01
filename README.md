@@ -23,9 +23,10 @@ The mean advantage is the powerfull modular system that provides de M5Stack desi
    - RaceRender 3.0 by HP Tuners, creates Data-Overlay video (WIN and MAC / freeware)
    - https://serious-racing.com (cloud only / free)
    - RaceChrono Pro, Data Analysis with sync video (Android / iOs, 23 euros license)
-   - Circuit Tools by VBOX, Data Analysis with sync video (WIN and MAC / freeware)
+   - Circuit Tools by RaceLogic VBOX, Data Analysis with sync video (WIN and MAC / freeware)
    - DashWare by GoPro, creates Data-Overlay video (WIN / freeware)
-   - MS Excel or similar, Data SpreadSeets or txt
+   - Race Studio 3 by AIM (WIN / freeware)
+   - MS Excel or similar, Data SpreadSeets or txt (WIN and MAC / freeware)
     
 At the end, we show the list of which modules, sensors units and special installation process, needed for the multiple functionalities of M5R.
 

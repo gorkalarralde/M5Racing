@@ -66,13 +66,15 @@ At the end, we show the list of which modules, sensors units and special install
    - ECU SPEED data
    - Actual GEAR
    - ECU Throttle position sensor data (TPS)
+   - Coolant temp (with alert if temp > 106 ºC)
    - On-screen alerts for too high Coolant temperature
  
  - 5 - TTPMS DATA
  
    - Inside tire temperature and pression monitoring system
    - BLE Bluetooth 4.0 connection with open data TTPMS sensors
-   - Includes on-screen alerts for too low or too high tire pressure
+   - 1 sample per second (1 Hz) if sensors data changes rapidly
+   - Includes on-screen alerts for too low (20 PSI) or too high tire pressure
    - Includes easy "check-by-Colour" optimum or out-of-range values
    - 2 options:
      - Internal (real TTPMS but needs installation):
@@ -140,7 +142,7 @@ At the end, we show the list of which modules, sensors units and special install
      - With "check-by-colour" optimum calculated values 
      - Also includes lIVE SAG for on-track setup 
    - Includes alerts for:
-     - Near bottoming alert: too much diving of the front under braking
+     - Near bottoming alert (if less than 10 mm left travel): too much diving of the front under braking
      - Too poor SAG
  
  - 13 - AUTO POWER SHIFTER (APS)
@@ -177,6 +179,7 @@ At the end, we show the list of which modules, sensors units and special install
        - TTPMS alarm
        - Coolant alarm
        - Ambient temperature alert
+       - TTPMS out of range alerts
 
 
 ## Needed Modules, sensors and special installation (related with functionality)

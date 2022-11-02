@@ -90,7 +90,7 @@ At the end, we show the list of which modules, sensors units and special install
  
    - 3-zone or 8-zone expanded data sampling to choose from
    - Based on external infrared (IR) sensors (from -40 to 380ºC)
-   - Includes "check-by-colour" values and alerts for too low or too high temperature
+   - Includes "check-by-colour" values and alerts for too low or too high temperature (> 100 ºC)
    - On-screen data analysis simplified:
      - Outside, middle and inside temps for each car tire
        - At setup, includes camber tips for optimum performance
@@ -103,8 +103,8 @@ At the end, we show the list of which modules, sensors units and special install
    - Ambient pressure (BAR)
    - Ambient humidity (%)
    - Includes alerts for too low or too high ambient temp:
-     - Below 7ºC
-     - Above 32ºC
+     - Below 5 ºC
+     - Above 32 ºC
  
  - 8 - G-SENSORS and 9-axis IMU
  

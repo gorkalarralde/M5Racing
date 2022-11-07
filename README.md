@@ -2,8 +2,11 @@
 ## M5Stack DAS Racing description:
 
 M5Racing (M5R) is a new Data Acquisition System (DAS) for any type of vehicle (cars, motorcycles, bikes, etc.). It provides data sampling, revision (on a small integrated GUI screen or an optional, 5" external display) and logging (when needed).
+
 This new Racing Data Logger is based on the M5Stack modular system. The M5Stack Core Base development board is highly efficient and includes an industrial grade case, an ESP32 with 16MB of flash memory and Bluetooth communication.
+
 The main advantage is the powerful modular system provided by the M5Stack design, which means you only have to get the modules and sensors you need for achieving your objectives. For example, if you only need TTPMS and some OBD-II ECU data, no modules have to be installed, given that Bluetooth connectivity is ready to use in the base M5Stack Core.
+
     • Data Acquisition System (DAS) and Analysis for car and motorcycle racing.
     • Telemetry and data logging for all installed sensors and vehicle ECU data.
     • 2.0-inch, 320x240 Colour TFT LCD, with a maximum brightness of 853 nit.
@@ -24,13 +27,17 @@ The main advantage is the powerful modular system provided by the M5Stack design
         ◦ DashWare by GoPro, which creates a Data-Overlay video (WIN / freeware).
         ◦ Race Studio 3 by AIM (WIN / freeware).
         ◦ MS Excel or similar data spreadsheets or txt (WIN and MAC / freeware).
+
 A list of the modules, sensor units and special installation processes that are needed for the multiple functionalities of M5R is shown below.
+
 M5R Full Technical Data Specs:
+
     • 16 GB microSD CARD STORAGE
         ◦ Up to 16GB FAT32 formatted microSD TF cards
         ◦ Creates compatible UTF-8 .CSV format files
         ◦ Compatibility with almost any data analysis program
         ◦ Unlimited session length, ideal for 24-hour races
+
     • 10 Hz GPS DATA
         ◦ GPS data 10 times per second for: 
             ▪ automatic lap timer
@@ -38,7 +45,13 @@ M5R Full Technical Data Specs:
             ▪ accurate track paths for every curve
             ▪ accurate time and date
             ▪ altitude and speed data
+
     • 50 Hz DATA LOGGING
+        ◦ Logging 50 times per second (every 20 ms) 
+        ◦ High-speed data sampling for high variable data sensors such as: 
+            ▪ Suspension
+            ▪ G-forces
+            ▪ IR temps (tires and brakes)
     
     
     

@@ -157,7 +157,7 @@ A list of the modules, sensor units and special installation processes that are 
       - TTPMS out of range alerts
 
 
-## Needed Modules, sensors and special installation (related with functionality)
+## Required Modules, sensors and installation
 
  - 16GB microSD CARD STORAGE -> No special module needed (M5Stack Core included functionality)
  - 10 Hz GPS DATA

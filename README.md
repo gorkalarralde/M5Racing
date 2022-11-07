@@ -1,154 +1,186 @@
-###M5Racing
+# M5Racing
+## M5Stack DAS Racing description:
 
-##M5Stack DAS Racing description:
+M5Racing (M5R) is a new Data Acquisition System (DAS) for moving vehicles (cars, motorcycles, bikes,...), providing data sampling, revision (over a small integrated GUI screen / optional external 5" display) and logging (when needed).
 
-M5Racing (M5R) is a new Data Acquisition System (DAS) for any type of vehicle (cars, motorcycles, bikes, etc.). It provides data sampling, revision (on a small integrated GUI screen or an optional, 5" external display) and logging (when needed).
+This new Racing Data Logger is based on the M5Stack modular system. M5Stack Core Base development board is highly efficient, covering with industrial grade case an ESP32, 16MB of flash memory and Bluetooth communication.
 
-This new Racing Data Logger is based on the M5Stack modular system. The M5Stack Core Base development board is highly efficient and includes an industrial grade case, an ESP32 with 16MB of flash memory and Bluetooth communication.
+The mean advantage is the powerfull modular system that provides de M5Stack design, so you can get only the modules and sensors you need to achieved you goals. For example, if you only need TTPMS and some OBDII ECU data, there is no need to mount any module as the bluetooth conectivity is ready to use on the base M5Stack Core.
 
-The main advantage is the powerful modular system provided by the M5Stack design, which means you only have to get the modules and sensors you need for achieving your objectives. For example, if you only need TTPMS and some OBD-II ECU data, no modules have to be installed, given that Bluetooth connectivity is ready to use in the base M5Stack Core.
+ - Data Acquisition System (DAS) and Analysis for racecar and motorcycle racing
+ - Telemetry and data logging for all sensors installed and ECU vehicle data
+ - 2.0-inch, 320x240 Colorful TFT LCD, with a maximun brightness of 853 nit
+ - GUI for navigating through data and config menus
+ - ESP32 (2 low-power Xtensa® 32-bit LX6 microprocessors at 240MHz, dual core, 600 DMIPS)
+ - Bluetooth dual (classic BT 3.0 and BLE 4.0) over 2.4 GHz 3D Antenna
+ - FreeRTOS firmware and 16MB of flash memory  
+ - On-track engineering with LIVE sensors reading
+ - Easy FIRMWARE upgrade via new "firmware.bin" realeases
+ - Based on M5Stack Core:
+   - Option 1: https://docs.m5stack.com/en/core/basic_v2.6 (cheapest option)
+   - Option 2: https://docs.m5stack.com/en/core/gray (another valid option)
+ - Created log files can be opened with:
+   - RaceRender 3.0 by HP Tuners, creates Data-Overlay video (WIN and MAC / freeware)
+   - https://serious-racing.com (cloud only / free)
+   - RaceChrono Pro, Data Analysis with sync video (Android / iOs, 23 euros license)
+   - Circuit Tools by RaceLogic VBOX, Data Analysis with sync video (WIN and MAC / freeware)
+   - DashWare by GoPro, creates Data-Overlay video (WIN / freeware)
+   - Race Studio 3 by AIM (WIN / freeware)
+   - MS Excel or similar, Data SpreadSeets or txt (WIN and MAC / freeware)
+    
+At the end, we show the list of which modules, sensors units and special installation process, needed for the multiple functionalities of M5R.
 
-    • Data Acquisition System (DAS) and Analysis for car and motorcycle racing.
-    • Telemetry and data logging for all installed sensors and vehicle ECU data.
-    • 2.0-inch, 320x240 Colour TFT LCD, with a maximum brightness of 853 nit.
-    • GUI for browsing through data and config menus.
-    • ESP32 (two low-power Xtensa® 32-bit LX6 microprocessors at 240 MHZ, dual core, 600 DMIPS).
-    • Dual Bluetooth (classic BT 3.0 and BLE 4.0) with 2.4-GHz 3D Antenna.
-    • FreeRTOS firmware and 16MB of flash memory.
-    • On-track engineering, with LIVE sensor reading.
-    • Easy FIRMWARE upgrade through new "firmware.bin" releases.
-    • Based on the M5Stack Core: 
-        ◦ Option 1: https://docs.m5stack.com/en/core/basic_v2.6 (most economical option).
-        ◦ Option 2: https://docs.m5stack.com/en/core/gray (another valid option).
-    • The log files that are created can be opened with: 
-        ◦ RaceRender 3.0 by HP Tuners, which creates a Data-Overlay video (WIN and MAC / freeware).
-        ◦ https://serious-racing.com (cloud only / freeware).
-        ◦ RaceChrono Pro data analysis with sync video (Android / iOs, 23 euros per license).
-        ◦ Circuit Tools by RaceLogic VBOX and data analysis with sync video (WIN and MAC / freeware).
-        ◦ DashWare by GoPro, which creates a Data-Overlay video (WIN / freeware).
-        ◦ Race Studio 3 by AIM (WIN / freeware).
-        ◦ MS Excel or similar data spreadsheets or txt (WIN and MAC / freeware).
-A list of the modules, sensor units and special installation processes that are needed for the multiple functionalities of M5R is shown below.
-M5R Full Technical Data Specs:
-    • 16 GB microSD CARD STORAGE
-        ◦ Up to 16GB FAT32 formatted microSD TF cards
-        ◦ Creates compatible UTF-8 .CSV format files
-        ◦ Compatibility with almost any data analysis program
-        ◦ Unlimited session length, ideal for 24-hour races
-    • 10 Hz GPS DATA
-        ◦ GPS data 10 times per second for: 
-            ▪ automatic lap timer
-            ▪ automatic on-track recognition (more than 1000 tracks available)
-            ▪ accurate track paths for every curve
-            ▪ accurate time and date
-            ▪ altitude and speed data
-    • 50 Hz DATA LOGGING
-        ◦ Logging 50 times per second (every 20 ms) 
-        ◦ High-speed data sampling for high variable data sensors such as: 
-            ▪ Suspension
-            ▪ G-forces
-            ▪ IR temps (tires and brakes)
-    • OBD-II ECU DATA
-        ◦ Classic Bluetooth 3.0 connection
-        ◦ Requires an OBD-II-to-BT 3.0 dongle with a compatible ELM327 chipset (Version 1.5 or higher) and 2.1 software
-        ◦ Also BT 2.0 and BT 4.0: compatibility depends on the vehicle and the OBD-II-to-BT dongle used
-        ◦ ECU Engine RPM
-        ◦ SHIFT-light indicator
-        ◦ ECU SPEED data
-        ◦ Actual GEAR
-        ◦ ECU throttle position sensor data (TPS)
-        ◦ Coolant temp (with alert if temp > 106º C)
-        ◦ On-screen alerts for coolant temperature too high
-    • TTPMS DATA
-        ◦ Inside tire temperature and pressure monitoring system
-        ◦ BLE Bluetooth 4.0 connection with open data TTPMS sensors
-        ◦ Up to 1 sample per second (1 Hz) if sensor data changes rapidly
-        ◦ Includes on-screen alerts for tire pressure that is too low (20 PSI) or too high
-        ◦ Includes easy "check-by-colour" for optimum or out-of-range values
-        ◦ 2 options: 
-            ▪ Internal (real TTPMS, but requires installation): 
-                • https://amzn.eu/d/5TqwCvm
-                • https://amzn.eu/d/ecVz5fE
-            ▪ External (very easy install, but temperature is ambient temp): 
-                • https://amzn.eu/d/6uYdyAY
-                • https://amzn.eu/d/dzelCKM
-                • https://amzn.eu/d/eoFtA7H
-    • TIRE TEMPERATURES
-        ◦ 3-zone or 8-zone expanded data sampling to choose from
-        ◦ Based on external infrared (IR) sensors (from -40º to 380º C)
-        ◦ Includes "check-by-colour" values and alerts for temperature too low or too high (> 100º C)
-        ◦ Simplified on-screen data analysis: 
-            ▪ Outside, middle and inside temps for each car tire 
-                • At setup, includes camber tips for optimum performance
-            ▪ Left, centre and right temps for each motorcycle (bike) tire
-    • ENVIRONMENTAL DATA
-        ◦ Ambient light (Lux)
-        ◦ Ambient temperature (º C)
-        ◦ Ambient pressure (BAR)
-        ◦ Ambient humidity (%)
-        ◦ Includes alerts for ambient temp too low or too high: 
-            ▪ Below 5º C
-            ▪ Above 32º C
-    • G-SENSORS and 9-axis IMU
-        ◦ LEAN angle (especially useful for motorcycle riders and bikers)
-        ◦ YAW or rotation angle to detect under/over steering of a vehicle
-        ◦ Includes PITCH angle for live rake sampling
-        ◦ Longitudinal acceleration: 
-            ▪ Under braking (negative G-values)
-            ▪ Throttling (positive G-values)
-        ◦ Lateral acceleration: 
-            ▪ Cornering forces
-    • ROTOR and CALIPER TEMPERATURE
-        ◦ Based on external infrared (IR) sensors
-        ◦ Includes alerts for rotor values that are too low or too high
-            ▪ Below 100º C (cold)
-            ▪ Above 600º C (overheated)
-        ◦ Includes alerts for too-high caliper values 
-            ▪ Above 180º C (overheated / risk of vaporisation)
-    • STEERING ANGLE
-    • THROTTLE POSITION SENSOR
-        ◦ Only needed if OBD-II BT is not in use: 
-            ▪ Car: a ToF sensor must be installed under the throttle lever
-            ▪ Motorcycle: an angle sensor must be installed inside the throttle
-    • SUSPENSION TRAVEL AND SAG ADJUSTMENT
-        ◦ Measures the suspension travel for each wheel
-        ◦ Includes easy SAG adjustment process: 
-            ▪ 3-step guide with description and images
-            ▪ With "check-by-colour" for optimum calculated values
-            ▪ Also includes LIVE SAG for on-track setup
-        ◦ Includes alerts for: 
-            ▪ Near-bottoming alert (if less than 10 mm of travel left): the front dives too much while braking
-            ▪ Poor SAG
-    • AUTO POWER SHIFTER (APS)
-        ◦ Only for models equipped with UP/DOWN shifter (UP-Shifter and Blipper)
-        ◦ Requires an active OBD-II-to-BT 3.0 or 4.0 dongle 
-        ◦ Completely tuneable with 4 riding modes: 
-            ▪ ECO, STREET, SPORT and TRACK
-            ▪ Each mode completely configurable for UP RPM and DOWN RPM, for each gear!!!
-            ▪ Not only FULL AUTO but also a FULL MANUAL UP/DOWN gear selector in any mode
-        ◦ For more convenient MODE selection and AUTO/MANUAL APS UP/DOWN gear selection, one of these 5-button controls is needed: 
-            ▪ https://amzn.eu/d/10rhYnT
-            ▪ https://amzn.eu/d/iwBvQux
-    • BRAKE PRESSURE SENSOR(S)
-        ◦ Brake sensor with 2 options and functionalities: 
-            ▪ ON/OFF: only senses if you do or don’t brake via brake light activation
-            ▪ Proper pressure gauge(s): samples exact pressure at each brake lever (requires installation and bleeding of new brake line hoses)
-    • 5" HMI REALTIME DASHBOARD
-        ◦ 5-inch 800x480 touchscreen monitor with: 
-            ▪ Racing Dashboard design
-            ▪ A 20-LED strip that shows the actual RPM with colour ramping
-            ▪ SHIFT-light indicator (all LEDs flash in bright white), completely synchronized with the APS
-            ▪ Shows all of the vehicle’s LIVE data and sensors
-            ▪ GUI design better than the M5Stack Core alone, with multiple graphic screens
-            ▪ Information management
-            ▪ Browsing through the configuration menus
-            ▪ Adaptative brightness to actual ambient light (lux)
-            ▪ Shows alarms and alerts: 
-                • GPS signal alert
-                • TTPMS alarm
-                • Coolant alarm
-                • Ambient temperature alert
-                • TTPMS out of range alerts
+## M5R Full Technical Data Specs: 
+
+ - 1 - 16GB microSD CARD STORAGE
+ 
+   - Up to 16GB FAT32 formated microSD TF cards
+   - Creates compatible UTF-8 .CSV format files
+   - Compatibility with almost any data analysis program
+   - Unlimited session length, ideal for 24 hour races
+      
+ - 2 - 10 Hz GPS DATA
+ 
+   - 10 times a second GPS data for:
+     - automatic lap timer
+     - automatic on-track recognition (plus than 1000 tracks available)
+     - accurate track lines path for every curve
+     - accurate time and date
+     - altitude data and moving speed
+         
+ - 3 - 50 Hz DATA LOGGING
+ 
+   - 50 times a second (every 20 ms) logging
+   - High-speed data sampling for high variable data sensors such as:
+     - Suspension
+     - G-forces
+     - IR temps (tires and brakes) 
+ 
+ - 4 - OBD II ECU DATA
+ 
+   - Classic Bluetooth 3.0 connection
+   - Needs an OBDII to BT 3.0 dongle with compatible ELM327 chipset (Version 1.5 or higher) and 2.1 software
+   - Also BT 2.0 and BT 4.0: compatibility depends of the vehicle and OBDII to BT dongle used
+   - ECU Engine RPM
+   - SHIFT-light indicator
+   - ECU SPEED data
+   - Actual GEAR
+   - ECU Throttle position sensor data (TPS)
+   - Coolant temp (with alert if temp > 106 ºC)
+   - On-screen alerts for too high Coolant temperature
+ 
+ - 5 - TTPMS DATA
+ 
+   - Inside tire temperature and pression monitoring system
+   - BLE Bluetooth 4.0 connection with open data TTPMS sensors
+   - 1 sample per second (1 Hz) if sensors data changes rapidly
+   - Includes on-screen alerts for too low (20 PSI) or too high tire pressure
+   - Includes easy "check-by-Colour" optimum or out-of-range values
+   - 2 options:
+     - Internal (real TTPMS but needs installation):
+       - https://amzn.eu/d/5TqwCvm
+       - https://amzn.eu/d/ecVz5fE
+     - External (very easy install but temperature is ambient temp):
+       - https://amzn.eu/d/6uYdyAY
+       - https://amzn.eu/d/dzelCKM
+       - https://amzn.eu/d/eoFtA7H
+
+ 
+ - 6 - TIRE TEMPERATURES
+ 
+   - 3-zone or 8-zone expanded data sampling to choose from
+   - Based on external infrared (IR) sensors (from -40 to 380ºC)
+   - Includes "check-by-colour" values and alerts for too low or too high temperature (> 100 ºC)
+   - On-screen data analysis simplified:
+     - Outside, middle and inside temps for each car tire
+       - At setup, includes camber tips for optimum performance
+     - Left, centre and right temps for each motorcycle (bike) tire
+ 
+ - 7 - ENVIROMENTAL DATA
+ 
+   - Ambient light (Lux)
+   - Ambient temperature (ºC)
+   - Ambient pressure (BAR)
+   - Ambient humidity (%)
+   - Includes alerts for too low or too high ambient temp:
+     - Below 5 ºC
+     - Above 32 ºC
+ 
+ - 8 - G-SENSORS and 9-axis IMU
+ 
+   - LEAN angle (specially usefull for motorcyclists and bikers)
+   - YAW or rotation angle to detect under/over steering of the vehicle
+   - Includes PITCH angle for live rake sampling
+   - Longitudinal acceleration:
+     - Under braking (negative G-values)
+     - Throttling (positive G-values)
+   - Lateral acceleration:
+     -  Cornering forces
+   
+ - 9 - ROTOR and CALIPER TEMPERATURE
+ 
+   - Based on external infrared (IR) sensors
+   - Includes alerts for too low or too high rotor values
+     - Below 100ºC (cold)
+     - Above 500ºC (overheated)
+   - Includes alerts for too high caliper values
+     - Above 180ºC (overheated / risk of vaporisation)
+ 
+ - 10 - STEERING ANGLE
+ 
+ - 11 - THROTTLE POSITION SENSOR
+ 
+   - Only needed if not OBD II BT in use:
+     - Car: must install a ToF sensor under de throttle lever
+     - Motorcycle: must install an angle sensor inside de throttle
+ 
+ - 12 - SUSPENSION TRAVEL AND SAG ADJUSTMENT
+ 
+   - Measures the suspension travel for each wheel
+   - Includes SAG easy process adjustment:
+     - 3-step guide with description and images
+     - With "check-by-colour" optimum calculated values 
+     - Also includes lIVE SAG for on-track setup 
+   - Includes alerts for:
+     - Near bottoming alert (if less than 10 mm left travel): too much diving of the front under braking
+     - Too poor SAG
+ 
+ - 13 - AUTO POWER SHIFTER (APS)
+ 
+   - Only for models equiped with UP/DOWN shifter (UP-Shifter and Blipper)
+   - Mandatory OBD II BT active
+   - Totally tunable with 4 riding modes:
+     - ECO, STREET, SPORT and TRACK
+     - Each mode totally configurable for UP RPM, DOWN RPM, for each gear!!!
+     - FULL AUTO but also a FULL MANUAL UP/DOWN gear selector under any mode
+   - For a more convenient MODE selection and AUTO/MANUAL APS UP/DOWN gear sel, one of this 5-button controls is needed:
+     - https://amzn.eu/d/10rhYnT
+     - https://amzn.eu/d/iwBvQux 
+ 
+ - 14 - BRAKE PRESSURE SENSORS
+ 
+   - Brake sensor with 2 options and functionality:
+     - ON/OFF: only senses if you brake or not via brake light activation
+     - Proper pressure gauge/s: samples exact pressure at each brake lever (needs installation and bleeding of new brake line hoses)
+ 
+ - 15 - 5" HMI REALTIME DASHBOARD
+
+   - 5-inch 800x480 touchscreen monitor with:
+     - Racing Dashboard design
+     - 20 LED strip shows actual RPM with colour ramping
+     - SHIFT-light indicator (all LEDs flash in powerfull white) totally syncronized with APS
+     - Shows all the LIVE data and sensors of the vehicle
+     - Better GUI design than the M5Stack Core itself, with multiple graphical screens
+     - Manage information
+     - Navigate through configuration menus
+     - Adaptative brightness to actual ambient light (lux)
+     - Shows alarms and alerts:
+       - GPS signal alert
+       - TTPMS alarm
+       - Coolant alarm
+       - Ambient temperature alert
+       - TTPMS out of range alerts
+
 
 ## Needed Modules, sensors and special installation (related with functionality)
 

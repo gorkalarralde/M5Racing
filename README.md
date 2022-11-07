@@ -7,7 +7,7 @@ This new Racing Data Logger is based on the M5Stack modular system. The M5Stack 
 
 The main advantage is the powerful modular system provided by the M5Stack design, which means you only have to get the modules and sensors you need for achieving your objectives. For example, if you only need TTPMS and some OBD-II ECU data, no modules have to be installed, given that Bluetooth connectivity is ready to use in the base M5Stack Core.
 
-• Data Acquisition System (DAS) and Analysis for car and motorcycle racing.
+- Data Acquisition System (DAS) and Analysis for car and motorcycle racing.
 • Telemetry and data logging for all installed sensors and vehicle ECU data.
 • 2.0-inch, 320x240 Colour TFT LCD, with a maximum brightness of 853 nit.
 • GUI for browsing through data and config menus.

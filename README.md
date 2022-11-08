@@ -20,13 +20,14 @@ The main advantage is the powerful modular system provided by the M5Stack design
   - Option 1: https://docs.m5stack.com/en/core/basic_v2.6 (most economical option).
   - Option 2: https://docs.m5stack.com/en/core/gray (another valid option).
 - The log files that are created can be opened with: 
-  - RaceRender 3.0 by HP Tuners, which creates a Data-Overlay video (WIN and MAC / freeware).
+  - RaceRender by HP Tuners, which creates a Data-Overlay video (WIN and MAC / freeware).
   - https://serious-racing.com (cloud only / freeware).
   - RaceChrono Pro data analysis with sync video (Android / iOs, 23 euros per license).
   - Circuit Tools by RaceLogic VBOX and data analysis with sync video (WIN and MAC / freeware).
   - DashWare by GoPro, which creates a Data-Overlay video (WIN / freeware).
   - Race Studio 3 by AIM (WIN / freeware).
   - MS Excel or similar data spreadsheets or txt (WIN and MAC / freeware).
+  - i2 Standard by Motec (WIN / freeware).
 
 A list of the modules, sensor units and special installation processes that are needed for the multiple functionalities of M5R is shown below.
 

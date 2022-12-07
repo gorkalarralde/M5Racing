@@ -46,7 +46,7 @@ A list of the modules, sensor units and special installation processes that are 
     - automatic on-track recognition (more than 1000 tracks available)
     - accurate track paths for every curve
     - accurate time and date
-    - altitude and speed data
+    - also altitude and speed data
 
 - 50 Hz DATA LOGGING
   - Logging 50 times per second (every 20 ms) 
@@ -64,8 +64,7 @@ A list of the modules, sensor units and special installation processes that are 
   - ECU SPEED data
   - Actual GEAR
   - ECU throttle position sensor data (TPS)
-  - Coolant temp (with alert if temp > 106º C)
-  - On-screen alerts for coolant temperature too high
+  - Coolant temp (with On-screen alert if temp > 106º C)
 - TTPMS DATA
   - Inside tire temperature and pressure monitoring system
   - BLE Bluetooth 4.0 connection with open data TTPMS sensors
@@ -85,7 +84,7 @@ A list of the modules, sensor units and special installation processes that are 
   - Based on external infrared (IR) sensors (from -40º to 380º C)
   - Includes "check-by-colour" values and alerts for temperature too low or too high (> 100º C)
   - Simplified on-screen data analysis: 
-    - Outside, middle and inside temps for each car tire 
+    - Outside, middle and inside temps for each tire 
     - At setup, includes camber tips for optimum performance
     - Left, centre and right temps for each motorcycle (bike) tire
 - ENVIRONMENTAL DATA

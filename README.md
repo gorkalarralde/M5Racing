@@ -174,3 +174,6 @@ A list of the modules, sensor units and special installation processes that are 
  - AUTO POWER SHIFTER (APS)
  - BRAKE PRESSURE SENSOR -> No special module needed (M5Stack Core included functionality)
  - 5" HMI REALTIME DASHBOARD
+
+
+If I have seen further than others, it is by standing upon the shoulders of giants.

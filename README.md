@@ -176,4 +176,7 @@ A list of the modules, sensor units and special installation processes that are 
  - 5" HMI REALTIME DASHBOARD
 
 
-If I have seen further than others, it is by standing upon the shoulders of giants.
+If I have seen further than others, it is by standing upon the shoulders of giants:
+
+- Luis Sáenz (luissaenz1987@gmail.com) for 3D CAD and Prototyping.
+- Fermín (now.pcb.now@gmail.com) for PCB Design and Prototyping.

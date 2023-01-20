@@ -139,10 +139,10 @@ A list of the modules, sensor units and special installation processes that are 
   - Brake sensor with 2 options and functionalities: 
     - ON/OFF: only senses if you do or don’t brake via brake light activation
     - Proper pressure gauge(s): samples exact pressure at each brake lever (requires installation and bleeding of new brake line hoses)
-- 5" HMI REALTIME DASHBOARD
-  - 5-inch 800x480 touchscreen monitor with: 
+- 7" or 5" HMI REALTIME DASHBOARD
+  - 7-inch or 5-inch 800x480 touchscreen monitor with: 
     - Racing Dashboard design
-    - A 20-LED strip that shows the actual RPM with colour ramping
+    - A 24 or smaller 18-LED strip that shows the actual RPM with colour ramping
     - SHIFT-light indicator (all LEDs flash in bright white), completely synchronised with the APS
     - Shows all of the vehicle’s LIVE data and sensors
     - GUI design better than the M5Stack Core alone, with multiple graphic screens
